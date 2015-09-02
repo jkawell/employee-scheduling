@@ -1,0 +1,22 @@
+{
+    "name": "jkawell/empscheduling",
+    "description": "A sample project for building an application using Spark.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "sparkphp/spark": "dev-master",
+        "vlucas/spot2": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spark\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeff Kawell",
+            "email": "jeff.kawell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
